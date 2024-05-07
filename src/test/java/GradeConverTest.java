@@ -28,4 +28,13 @@ public class GradeConverTest {
             Assert.assertEquals(expected, actual);
         }
 
+        @Test
+        public void testConvert3() {
+        String expected = "B";
+        String actual = this.converter.convert(80);
+        Assert.assertEquals(expected, actual);
+      }
+
+
+
 }
